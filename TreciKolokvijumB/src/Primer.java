@@ -1,18 +1,10 @@
 
 
 public class Primer {
-	/**
-	 * Count odd or postive elements
-	 *
-	 * @param x
-	 *            array to search
-	 * @return count of odd/positive values in x
-	 * @throws NullPointerException
-	 *             if x is null
-	 */
+	
 	public int oddOrPos(int[] x) {
 		int count = 0;
-		for (int i = 0; i < x.length - 1; i++) {
+		for (int i = 0; i < x.length + 1; i++) {
 			if (x[i] % 2 == 1 && x[i] > 0) {
 				count++;
 			}
